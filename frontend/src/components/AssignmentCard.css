@@ -1,0 +1,40 @@
+.assignment-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 16px;
+}
+
+.assignment-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.assignment-title {
+    margin: 0;
+    font-size: 20px;
+}
+
+.assignment-description {
+    margin: 0;
+    color: #555;
+}
+
+.assignment-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    color: #666;
+    font-size: 14px;
+}
+
+.assignment-view-btn {
+    width: fit-content;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+}
