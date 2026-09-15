@@ -1,0 +1,47 @@
+.container {
+  flex: 1;
+  padding: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1d20;
+  margin-bottom: 20px;
+}
+
+.videoWrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e5e8f0;
+  background-color: #000;
+}
+
+.iframe {
+  border: none;
+  display: block;
+}
+
+.textContent {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  background-color: #ffffff;
+  border: 1px solid #e5e8f0;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.emptyState {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 400px;
+  color: #888;
+  font-size: 16px;
+  text-align: center;
+}

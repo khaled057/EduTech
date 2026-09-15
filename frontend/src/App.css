@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #211832;
+
+    min-height: 100vh;
+}
+
+
+.auth-page {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.brand {
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+
+.brand h2 {
+    color: #d8b4fe;
+
+    font-size: 32px;
+
+    margin-bottom: 5px;
+}
+
+
+.brand p {
+    color: #b8a7c9;
+
+    font-size: 14px;
+}
+
+
+.register-container {
+    background-color: #ffffff;
+
+    width: 400px;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 25px #120d1c;
+}
+
+
+.register-container h1 {
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    color: #35204f;
+
+    font-size: 28px;
+}
+
+
+.subtitle {
+    text-align: center;
+
+    color: #75677f;
+
+    margin-bottom: 30px;
+
+    font-size: 14px;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+
+.input-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+    color: #49365c;
+}
+
+
+.input-group input {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #d8c9e5;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    background-color: #faf8fc;
+}
+
+
+.input-group input:focus {
+    outline: none;
+
+    border-color: #9b59b6;
+
+    background-color: #ffffff;
+}
+
+
+.auth-button {
+    width: 100%;
+
+    padding: 13px;
+
+    background-color: #8e44ad;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.auth-button:hover {
+    background-color: #74358f;
+}
+
+
+.switch-page {
+    text-align: center;
+
+    margin-top: 22px;
+
+    color: #75677f;
+
+    font-size: 14px;
+}
+
+
+.switch-page a {
+    color: #8e44ad;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    margin-left: 5px;
+}
+
+
+.switch-page a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+
+    .register-container {
+        width: 90%;
+
+        padding: 30px 20px;
+    }
+
+
+    .brand h2 {
+        font-size: 28px;
+    }
+
+
+    .register-container h1 {
+        font-size: 24px;
+    }
+
+
+    .subtitle {
+        font-size: 13px;
+    }
+
+
+    .input-group input {
+        padding: 12px;
+    }
+
+
+    .auth-button {
+        padding: 12px;
+    }
+}

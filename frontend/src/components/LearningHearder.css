@@ -1,0 +1,97 @@
+.learning-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 32px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e8f0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  color: #f3b1b2;
+  font-size: 20px;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a1d20;
+}
+
+.progress-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  max-width: 500px;
+  margin: 0 32px;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #e5e8f0;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #f3b1b2;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progress-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f3b1b2;
+  white-space: nowrap;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f3b1b2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1d20;
+}
+
+.dropdown-arrow {
+  font-size: 16px;
+  color: #888;
+}
+
+.logo-img {
+  height: 55px;
+}

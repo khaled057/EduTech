@@ -6,8 +6,9 @@ const createChapter = async (req, res) => {
     const { title, course, order } = req.body;
     const courseExists = await Course.findById(course);
     if (!courseExists){
-      return res.status(400).json({
-        message:"Course not found"
+      return res.status(404).json({
+        message:"Course not found",
+        course,
       });
     }
     const chapter = await Chapter.create({
