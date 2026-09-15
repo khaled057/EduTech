@@ -25,6 +25,22 @@ const CourseDetails = () => {
         setLoading(false);
       });
   }, [courseId]);
+  /* 
+  useEffect(() => {
+  const fakeCourse = {
+    _id: courseId,
+    title: "React Fundamentals",
+    description: "Learn React from beginner to advanced.",
+    instructor: "Ahmed Mohamed",
+    price: 500,
+    image: "/course-image.jpg",
+  };
+
+  setCourse(fakeCourse);
+  setIsEnrolled(false);
+  setLoading(false);
+}, [courseId]);
+  */
   const handleEnroll = async () => {
     try {
       await axios.post(`/api/courses/${courseId}/enroll`);

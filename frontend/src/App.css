@@ -1,211 +1,187 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 
-    background-color: #211832;
+  background-color: #211832;
 
-    min-height: 100vh;
+  min-height: 100vh;
 }
-
 
 .auth-page {
-    min-height: 100vh;
+  min-height: 100vh;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .brand {
-    text-align: center;
+  text-align: center;
 
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-
 
 .brand h2 {
-    color: #d8b4fe;
+  color: #f3b1b2;
 
-    font-size: 32px;
+  font-size: 32px;
 
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
-
 
 .brand p {
-    color: #b8a7c9;
+  color: #f9d1d1;
 
-    font-size: 14px;
+  font-size: 14px;
 }
-
 
 .register-container {
-    background-color: #ffffff;
+  background-color: #ffffff;
 
-    width: 400px;
+  width: 400px;
 
-    padding: 40px;
+  padding: 40px;
 
-    border-radius: 15px;
+  border-radius: 15px;
 
-    box-shadow: 0 5px 25px #120d1c;
+  box-shadow: 0 5px 25px #120d1c;
 }
-
 
 .register-container h1 {
-    text-align: center;
+  text-align: center;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    color: #35204f;
+  color: #f3b1b2;
 
-    font-size: 28px;
+  font-size: 28px;
 }
-
 
 .subtitle {
-    text-align: center;
+  text-align: center;
 
-    color: #75677f;
+  color: #f2c2c3;
 
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 
-    font-size: 14px;
+  font-size: 14px;
 }
-
 
 .input-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-
 
 .input-group label {
-    display: block;
+  display: block;
 
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 
-    font-weight: bold;
+  font-weight: bold;
 
-    color: #49365c;
+  color: #f3b1b2;
 }
-
 
 .input-group input {
-    width: 100%;
+  width: 100%;
 
-    padding: 13px;
+  padding: 13px;
 
-    border: 1px solid #d8c9e5;
+  border: 1px solid #d8c9e5;
 
-    border-radius: 8px;
+  border-radius: 8px;
 
-    font-size: 15px;
+  font-size: 15px;
 
-    background-color: #faf8fc;
+  background-color: #faf8fc;
 }
-
 
 .input-group input:focus {
-    outline: none;
+  outline: none;
 
-    border-color: #9b59b6;
+  border-color: #f3b1b2;
 
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
-
 
 .auth-button {
-    width: 100%;
+  width: 100%;
 
-    padding: 13px;
+  padding: 13px;
 
-    background-color: #8e44ad;
+  background-color: #f3b1b2;
 
-    color: white;
+  color: white;
 
-    border: none;
+  border: none;
 
-    border-radius: 8px;
+  border-radius: 8px;
 
-    font-size: 16px;
+  font-size: 16px;
 
-    font-weight: bold;
+  font-weight: bold;
 
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 .auth-button:hover {
-    background-color: #74358f;
+  background-color: #f3b1b2;
 }
-
 
 .switch-page {
-    text-align: center;
+  text-align: center;
 
-    margin-top: 22px;
+  margin-top: 22px;
 
-    color: #75677f;
+  color: #d3cece;
 
-    font-size: 14px;
+  font-size: 14px;
 }
-
 
 .switch-page a {
-    color: #8e44ad;
+  color: #f2c2c3;
 
-    text-decoration: none;
+  text-decoration: none;
 
-    font-weight: bold;
+  font-weight: bold;
 
-    margin-left: 5px;
+  margin-left: 5px;
 }
-
 
 .switch-page a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 @media (max-width: 600px) {
+  .register-container {
+    width: 90%;
 
-    .register-container {
-        width: 90%;
+    padding: 30px 20px;
+  }
 
-        padding: 30px 20px;
-    }
+  .brand h2 {
+    font-size: 28px;
+  }
 
+  .register-container h1 {
+    font-size: 24px;
+  }
 
-    .brand h2 {
-        font-size: 28px;
-    }
+  .subtitle {
+    font-size: 13px;
+  }
 
+  .input-group input {
+    padding: 12px;
+  }
 
-    .register-container h1 {
-        font-size: 24px;
-    }
-
-
-    .subtitle {
-        font-size: 13px;
-    }
-
-
-    .input-group input {
-        padding: 12px;
-    }
-
-
-    .auth-button {
-        padding: 12px;
-    }
+  .auth-button {
+    padding: 12px;
+  }
 }

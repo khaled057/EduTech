@@ -20,7 +20,7 @@ a {
 }
 
 .admin-page h1 {
-  color: #1e3a8a;
+  color: #f4a9aa;
   font-size: 32px;
   margin-bottom: 12px;
 }
@@ -39,7 +39,7 @@ a {
 }
 
 .admin-menu a {
-  background: #2563eb;
+  background: #f3b1b2;
   color: white;
   padding: 14px 22px;
   border-radius: 8px;
@@ -49,7 +49,7 @@ a {
 }
 
 .admin-menu a:hover {
-  background: #1d4ed8;
+  background: #f3b1b2;
   transform: translateY(-2px);
 }
 
@@ -64,7 +64,7 @@ a {
   padding: 28px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
-  border-left: 5px solid #2563eb;
+  border-left: 5px solid #f3b1b2;
   transition: 0.3s;
 }
 
@@ -74,7 +74,7 @@ a {
 }
 
 .dashboard-card h2 {
-  color: #2563eb;
+  color: #f3b1b2;
   font-size: 34px;
   margin-bottom: 10px;
 }
@@ -92,7 +92,7 @@ a {
 }
 
 .admin-section h2 {
-  color: #1e3a8a;
+  color: #f3b1b2;
   margin-bottom: 25px;
 }
 
@@ -116,12 +116,12 @@ a {
 .admin-form input:focus,
 .admin-form select:focus,
 .admin-form textarea:focus {
-  border-color: #2563eb;
+  border-color: #f3b1b2;
 }
 
 .admin-button {
   width: fit-content;
-  background: #2563eb;
+  background: #f3b1b2;
   color: white;
   border: none;
   padding: 12px 22px;
@@ -132,7 +132,7 @@ a {
 }
 
 .admin-button:hover {
-  background: #1d4ed8;
+  background: #f3b1b2;
 }
 
 .admin-table {

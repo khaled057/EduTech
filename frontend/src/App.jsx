@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import CourseDetails from "./pages/CourseDetails";
 import CourseLearning from "./pages/CourseLearning";
+import Courses from "./pages/Course";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Assignments from "./pages/Assignments";
 import AssignmentDetails from "./pages/AssignmentDetails";
@@ -9,6 +10,7 @@ import InstructorAssignments from "./pages/InstructorAssignments";
 import CreateAssignment from "./pages/CreateAssignment";
 import AssignmentSubmissions from "./pages/AssignmentSubmissions";
 import ReviewSubmission from "./pages/ReviewSubmission";
+import Home from "./pages/home";
 
 import AdminDashboard from "./Admin/AdminDashboard";
 import AdminUsers from "./Admin/AdminUsers";
@@ -16,14 +18,19 @@ import AdminCourses from "./Admin/AdminCourses";
 import AdminContent from "./Admin/AdminContent";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+
 import "./App.css";
 import "./Admin/admin.css";
+
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<AdminDashboard />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
 
+        <Route path="/courses" element={<Courses />} />
         <Route path="/courses/:courseId" element={<CourseDetails />} />
 
         <Route
@@ -34,8 +41,8 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route 
-          path="/learning/:courseId/assignments" 
+        <Route
+          path="/learning/:courseId/assignments"
           element={
             <ProtectedRoute>
               <Assignments />
@@ -50,6 +57,7 @@ function App() {
             </ProtectedRoute>
           }
         />
+
         <Route
           path="/instructor/courses/:courseId/assignments"
           element={
@@ -87,8 +95,6 @@ function App() {
         <Route path="/admin/users" element={<AdminUsers />} />
         <Route path="/admin/courses" element={<AdminCourses />} />
         <Route path="/admin/content" element={<AdminContent />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );

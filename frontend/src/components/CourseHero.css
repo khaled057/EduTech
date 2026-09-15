@@ -39,7 +39,7 @@
 }
 
 .enroll-btn {
-  background-color: #0056b3;
+  background-color: #f3b1b2;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -55,11 +55,11 @@
 }
 
 .enroll-btn:hover {
-  background-color: #00408a;
+  background-color: #f2aaab;
 }
 
 .enroll-btn.enrolled {
-  background-color: #28a745;
+  background-color: #fec634;
 }
 
 .enroll-subtext {
@@ -82,7 +82,7 @@
 
 .plus-badge {
   font-weight: 700;
-  color: #0056b3;
+  color: #f3b1b2;
 }
 
 .info-cards {
@@ -116,7 +116,7 @@
 }
 
 .star {
-  color: #f5a623;
+  color: #fbb200;
 }
 
 .info-sub {

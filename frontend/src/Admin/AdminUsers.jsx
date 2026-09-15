@@ -4,8 +4,18 @@ import { Link } from "react-router-dom";
 function AdminUsers() {
   const [users, setUsers] = useState([
     { id: 1, name: "Anas Ashraf", email: "anas@gmail.com", role: "Student" },
-    { id: 2, name: "Ahmed Mohamed", email: "ahmed@gmail.com", role: "Instructor" },
-    { id: 3, name: "Youssef Mahmoud", email: "youssef@gmail.com", role: "Admin" }
+    {
+      id: 2,
+      name: "Ahmed Mohamed",
+      email: "ahmed@gmail.com",
+      role: "Instructor",
+    },
+    {
+      id: 3,
+      name: "Youssef Mahmoud",
+      email: "youssef@gmail.com",
+      role: "Admin",
+    },
   ]);
 
   const [name, setName] = useState("");
@@ -22,7 +32,7 @@ function AdminUsers() {
       id: Date.now(),
       name,
       email,
-      role
+      role,
     };
 
     setUsers([...users, newUser]);
